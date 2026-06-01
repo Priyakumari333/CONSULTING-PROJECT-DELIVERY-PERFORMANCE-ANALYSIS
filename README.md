@@ -82,12 +82,12 @@ All 4 High Risk projects belong to the Process Transformation service line.
 ### H1- Low Utilisation Correlates with Poor Performance
 **Verdict: Partially Supported**
 - Optimal utilisation (75%+) shows 7.7% average overrun vs 19.1% for low utilisation
-- However, utilisation alone does not fully explain delivery delays — estimation quality and project complexity are stronger drivers
+- However, utilisation alone does not fully explain delivery delays- estimation quality and project complexity are stronger drivers
 
 ### H2- Cost Overruns Driven by Delay Days
 **Verdict: Partially Supported**
 - Delayed projects account for 60.4% of total overruns while representing 36% of projects
-- On-time projects still contribute 31.3% of overruns — scope creep and poor estimation also significant
+- On-time projects still contribute 31.3% of overruns- scope creep and poor estimation also significant
 
 ### H3- Significant Performance Variance Exists Between Service Lines
 **Verdict: Strongly Supported**
@@ -168,8 +168,8 @@ Business justification documented for every fix. Imputation based on service lin
 3. **Hypothesis Testing**- H1 scatter, H2 bar chart, H3 service line comparison
 4. **Financial Impact**- overrun by service line, planned vs actual cost waterfall
 5. **Scenario Planning**- interactive scenario selector, target achievement gauges
-6. **Full Project Details & Risk**— project-level table with risk categorisation
-7. **Recommendations & Action Plan**— priorities, timeline, projected savings
+6. **Full Project Details & Risk**- project-level table with risk categorisation
+7. **Recommendations & Action Plan**- priorities, timeline, projected savings
 
 ---
 
