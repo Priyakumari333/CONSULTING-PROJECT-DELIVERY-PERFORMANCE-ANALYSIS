@@ -10,7 +10,7 @@
 
 ## 📌 Business Problem
 
-> *A mid-sized Irish consulting firm operating across three service lines — Analytics, Technology Consulting, and Process Transformation — is experiencing systematic operational challenges affecting both financial performance and client relationships. What is driving the cost overruns and delivery delays, and what should leadership do about it?*
+> *A mid-sized Irish consulting firm operating across three service lines- Analytics, Technology Consulting, and Process Transformation is experiencing systematic operational challenges affecting both financial performance and client relationships. What is driving the cost overruns and delivery delays, and what should leadership do about it?*
 
 A full diagnostic analysis covering 25 projects, benchmarked against industry standards, with actionable recommendations and a 12-month implementation roadmap.
 
@@ -31,7 +31,7 @@ A full diagnostic analysis covering 25 projects, benchmarked against industry st
 | Parameter | Detail |
 |-----------|--------|
 | Projects Analysed | 25 projects |
-| Analysis Period | January – September 2024 |
+| Analysis Period | January-September 2024 |
 | Service Lines | Analytics, Technology Consulting, Process Transformation |
 | Total Planned Budget | €11,042,400 |
 | Total Actual Cost | €12,845,328 |
@@ -49,7 +49,7 @@ A full diagnostic analysis covering 25 projects, benchmarked against industry st
 | Cost Overrun % | 13.3% | 11.3% | 7.8% | 10.0% | -3.3 pts |
 | Utilisation Rate | 72.4% | 68.9% | 74.5% | 75.0% | -2.6 pts |
 
-**Critical finding:** On-time delivery at 44% is the most severe gap — 46 percentage points below target and 29 points below industry average.
+**Critical finding:** On-time delivery at 44% is the most severe gap-46 percentage points below target and 29 points below industry average.
 
 ---
 
@@ -79,17 +79,17 @@ All 4 High Risk projects belong to the Process Transformation service line.
 
 ## 🧪 Hypothesis Testing Results
 
-### H1 — Low Utilisation Correlates with Poor Performance
+### H1- Low Utilisation Correlates with Poor Performance
 **Verdict: Partially Supported**
 - Optimal utilisation (75%+) shows 7.7% average overrun vs 19.1% for low utilisation
 - However, utilisation alone does not fully explain delivery delays — estimation quality and project complexity are stronger drivers
 
-### H2 — Cost Overruns Driven by Delay Days
+### H2- Cost Overruns Driven by Delay Days
 **Verdict: Partially Supported**
 - Delayed projects account for 60.4% of total overruns while representing 36% of projects
 - On-time projects still contribute 31.3% of overruns — scope creep and poor estimation also significant
 
-### H3 — Significant Performance Variance Exists Between Service Lines
+### H3- Significant Performance Variance Exists Between Service Lines
 **Verdict: Strongly Supported**
 - 12 percentage point spread in cost overrun between Analytics (8.4%) and Process Transformation (20.4%)
 - 16 percentage point spread in utilisation
@@ -132,7 +132,7 @@ All 4 High Risk projects belong to the Process Transformation service line.
 | Best Case | €993,816 | €809,112 savings (45%) |
 | Worst Case | €2,208,480 | €405,552 additional |
 
-**Conservative to aggressive annual savings: €400,000 – €750,000**
+**Conservative to aggressive annual savings: €400,000- €750,000**
 
 ---
 
@@ -140,7 +140,7 @@ All 4 High Risk projects belong to the Process Transformation service line.
 
 | Area | Detail |
 |------|--------|
-| Data Cleaning | SQL — multi-phase pipeline with automated validation |
+| Data Cleaning | SQL- multi-phase pipeline with automated validation |
 | Analysis | SQL-based hypothesis testing, statistical variance analysis |
 | Benchmarking | Deltek 2025, SPI Research, CSO Ireland, PMI |
 | Visualisation | Power BI Desktop — KPI cards, bar charts, scatter plots, risk tables |
@@ -150,26 +150,26 @@ All 4 High Risk projects belong to the Process Transformation service line.
 
 ## 🔧 Data Quality Management Process
 
-**Phase 1 — Exploration**
+**Phase 1- Exploration**
 Systematic audit across 6 dimensions: NULLs, duplicates, consistency, outliers, date logic, statistical anomalies. Result: 11 distinct issues identified across 44% of dataset.
 
-**Phase 2 — Cleaning**
+**Phase 2- Cleaning**
 Business justification documented for every fix. Imputation based on service line averages. All fixes traceable via data_quality_note field.
 
-**Phase 3 — Validation**
+**Phase 3- Validation**
 6 automated validation checks executed. Result: 100% pass rate. Cross-validated all metrics against SQL query results.
 
 ---
 
 ## 📁 Dashboard Pages
 
-1. **Background & Objective** — business context, key challenges
-2. **Executive Summary** — KPI cards, benchmark comparison, service line table
-3. **Hypothesis Testing** — H1 scatter, H2 bar chart, H3 service line comparison
-4. **Financial Impact** — overrun by service line, planned vs actual cost waterfall
-5. **Scenario Planning** — interactive scenario selector, target achievement gauges
-6. **Full Project Details & Risk** — project-level table with risk categorisation
-7. **Recommendations & Action Plan** — priorities, timeline, projected savings
+1. **Background & Objective**- business context, key challenges
+2. **Executive Summary**- KPI cards, benchmark comparison, service line table
+3. **Hypothesis Testing**- H1 scatter, H2 bar chart, H3 service line comparison
+4. **Financial Impact**- overrun by service line, planned vs actual cost waterfall
+5. **Scenario Planning**- interactive scenario selector, target achievement gauges
+6. **Full Project Details & Risk**— project-level table with risk categorisation
+7. **Recommendations & Action Plan**— priorities, timeline, projected savings
 
 ---
 
@@ -194,22 +194,6 @@ Business justification documented for every fix. Imputation based on service lin
 5. Use the Scenario Planning page interactively to model different performance outcomes
 6. Refer to the full written report for detailed methodology and findings
 
----
-
-## 📂 Files in This Repository
-
-```
-├── README.md
-├── ConsultingDeliveryAnalysis.pbix        # Power BI dashboard
-├── SQL/
-│   └── cleaning_pipeline.sql              # Full SQL cleaning + validation script
-├── Data/
-│   └── Consulting_Projects_Data.xlsx      # Source dataset
-├── Report/
-│   └── Project_Report.pdf                 # Full written analysis
-└── Visuals/
-    └── Project_Visuals.pdf                # Dashboard screenshots
-```
 
 ---
 
